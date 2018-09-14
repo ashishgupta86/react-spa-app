@@ -1,0 +1,90 @@
+html { font-size: 16px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.app-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-content {
+  margin-top: 0.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+header {
+  overflow: hidden;
+  background-color: #e1e6ef;
+  padding: 1rem;   
+}
+
+header h1{
+  float: left;
+}
+
+header .rhs-content {
+  float: right;
+  right: 1rem;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+header .rhs-content > span {
+  -webkit-flex: 1;  /* Safari 6.1+ */
+  -ms-flex: 1;  /* IE 10 */    
+  flex: 1;
+  margin-left: 1.5rem;
+}
+
+header .rhs-content > span  a {
+  cursor: pointer;
+  color: blue !important;
+}
+
+header .rhs-content > a:hover {
+  text-decoration: underline !important;
+}
+
+.content {
+  background: #fff;
+}
+
+.alert-custom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.alert-custom a {
+  float: right;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 1.4rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.4rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

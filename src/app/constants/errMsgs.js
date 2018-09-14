@@ -1,0 +1,1 @@
+export const LOGIN_CRED_ERR = 'Please enter valid user name and password';
